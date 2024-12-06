@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 :root{
     --White: hsl(0, 0%, 100%);
     --Black: hsl(0, 0%, 0%);
@@ -15,10 +20,61 @@
 
 /**Mobile first**/
 
-#menudesktop{
+#menudesktop, #menumobile{
     display: none;
 }
 
 #listlink{
     list-style: none;
+}
+
+header{
+    background-image: url(images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    padding: 35px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#imglogo{
+    width: 110px;
+}
+
+#menuimgmobile{
+    margin: 10px;
+}
+
+#headercontent{
+    border-color: var(--White);
+    border-style: solid;
+    padding: 15px;
+    margin-top: 125px;
+    margin-bottom: 125px;
+    color: var(--White);
+}
+
+#headercontent > h2{
+    font-family: var(--font1);
+    font-size: 1.7em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+
+    
+}
+
+#imginteractive{
+    background-image: url(images/mobile/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
 }
