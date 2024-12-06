@@ -31,6 +31,7 @@
 header{
     background-image: url(images/mobile/image-hero.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 35px;
 
     display: flex;
@@ -68,13 +69,41 @@ header{
     flex-wrap: wrap;
     padding: 10px;
     margin: 10px;
+    margin-top: 45px;
 
-    
+    align-items: center;
+    justify-content: center;
+}
+
+#theleader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #imginteractive{
     background-image: url(images/mobile/image-interactive.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
+    background-size: contain;
+    padding: 150px;
+    padding-bottom: 90px;
 }
+
+#content{
+    text-align: center;
+}
+
+#content > h2{
+    font-family: var(--font1);
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+#content > p{
+    padding: 10px;
+    font-family: var(--font2);
+}
+
+
+
