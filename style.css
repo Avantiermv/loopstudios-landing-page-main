@@ -57,7 +57,7 @@ header{
     color: var(--White);
 }
 
-#headercontent > h2{
+#headercontent > p{
     font-family: var(--font1);
     font-size: 1.7em;
     font-weight: lighter;
@@ -94,16 +94,124 @@ header{
     text-align: center;
 }
 
-#content > h2{
+#content > #titleleader{
     font-family: var(--font1);
     font-weight: lighter;
+    font-size: 1.4em;
     text-transform: uppercase;
+    color: var(--Black);
+
 }
 
 #content > p{
     padding: 10px;
     font-family: var(--font2);
+    color: var(--VeryDarkGray);
 }
 
+#ourcreations{
+    font-family: var(--font1);
+    text-transform: uppercase;
+    color: var(--Black);
+    font-weight: lighter;
+    font-size: 1.4em;
+}
 
+.creations{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    height: 75px;
+    width: 315px;
+    padding: 20px;
+    margin: 15px;
+
+    font-family: var(--font1);
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: var(--White);
+}
+
+#earth{
+    background-image: url(images/mobile/image-deep-earth.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#arcade{
+    background-image: url(images/mobile/image-night-arcade.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#soccerteam{
+    background-image: url(images/mobile/image-soccer-team.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#grid{
+    background-image: url(images/mobile/image-grid.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fromup{
+    background-image: url(images/mobile/image-from-above.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#borealis{
+    background-image: url(images/mobile/image-pocket-borealis.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#curiosity{
+    background-image: url(images/mobile/image-curiosity.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#fisheye{
+    background-image: url(images/mobile/image-fisheye.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#moreinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: var(--Black);
+    color: var(--Black);
+    padding: 15px;
+    width: 180px;
+    height: 13px;
+    font-family: var(--font1);
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: smaller;
+    margin: 25px;
+    margin-bottom: 70px;
+}
+
+footer{
+    background-color: var(--Black);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#imglogofoot{
+    width: 110px;
+    margin: 25px;
+    padding: 25px;
+}
 
