@@ -24,6 +24,14 @@
     display: none;
 }
 
+#menumobile{
+    width: 100%;
+    height: 100%;
+    background-color: var(--Black);
+    position: fixed;
+    top: 0;
+}
+
 #listlink{
     list-style: none;
 }
@@ -32,7 +40,7 @@ header{
     background-image: url(images/mobile/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 35px;
+    padding: 0px;
 
     display: flex;
     flex-wrap: wrap;
@@ -42,16 +50,19 @@ header{
 
 #imglogo{
     width: 110px;
+    padding: 25px;
 }
 
 #menuimgmobile{
     margin: 10px;
+    padding: 25px;
 }
 
 #headercontent{
     border-color: var(--White);
     border-style: solid;
     padding: 15px;
+    margin: 20px;
     margin-top: 125px;
     margin-bottom: 125px;
     color: var(--White);
@@ -124,7 +135,7 @@ header{
     align-items: flex-end;
 
     height: 75px;
-    width: 315px;
+    width: 273px;
     padding: 20px;
     margin: 15px;
 
@@ -190,7 +201,7 @@ header{
     border-style: solid;
     border-color: var(--Black);
     color: var(--Black);
-    padding: 15px;
+    padding: 19px;
     width: 180px;
     height: 13px;
     font-family: var(--font1);
@@ -199,6 +210,14 @@ header{
     font-size: smaller;
     margin: 25px;
     margin-bottom: 70px;
+    background-color: var(--White);
+}
+
+#moreinfo:hover{
+    background-color: hsl(0, 0%, 55%);
+    transition-duration: 0.5s;
+    color: var(--White);
+    cursor: pointer;
 }
 
 footer{
@@ -212,6 +231,62 @@ footer{
 #imglogofoot{
     width: 110px;
     margin: 25px;
+    margin-bottom: 10px;
     padding: 25px;
+}
+
+#footercontent{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#footercontent > p{
+    font-family: var(--font2);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--White);
+    margin: 10px;
+}
+
+#socialmedia{
+    display: flex;
+    margin: 10px;
+}
+
+.imgmedia{
+    padding: 10px;
+    margin: 10px;
+}
+
+#face{
+    background-image: url(images/icon-facebook.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#twitter{
+    background-image: url(images/icon-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pinte{
+    background-image: url(images/icon-pinterest.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#insta{
+    background-image: url(images/icon-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#rights{
+    font-family: var(--font2);
+    color: var(--White);
+    margin: 15px;
 }
 
