@@ -32,6 +32,21 @@
     top: 0;
 }
 
+#menumobile > #menuimg, #listlink{
+    padding: 25px;
+}
+
+#listlink > li{
+    margin-bottom: 25px;
+}
+
+#listlink > li > a{
+    text-decoration: solid;
+    font-size: 20px;
+    font-family: var(--font2);
+    color: var(--White);
+}
+
 #listlink{
     list-style: none;
 }
@@ -43,7 +58,7 @@ header{
     padding: 0px;
 
     display: flex;
-    flex-wrap: wrap;
+    flex-flow:row wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -77,7 +92,7 @@ header{
 
 .sections{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow:column wrap;
     padding: 10px;
     margin: 10px;
     margin-top: 45px;
