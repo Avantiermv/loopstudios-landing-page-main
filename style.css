@@ -36,6 +36,10 @@
     padding: 25px;
 }
 
+#listlink{
+    list-style: none;
+}
+
 #listlink > li{
     margin-bottom: 25px;
 }
@@ -45,10 +49,6 @@
     font-size: 20px;
     font-family: var(--font2);
     color: var(--White);
-}
-
-#listlink{
-    list-style: none;
 }
 
 header{
@@ -63,6 +63,14 @@ header{
     align-items: center;
 }
 
+#logoandmenu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 #imglogo{
     width: 110px;
     padding: 25px;
@@ -70,6 +78,7 @@ header{
 
 #menuimgmobile{
     margin: 10px;
+    margin-top: 20px;
     padding: 25px;
 }
 
@@ -148,6 +157,8 @@ header{
     flex-flow: row wrap;
     justify-content: flex-start;
     align-items: flex-end;
+    position: relative;
+    z-index: 1;
 
     height: 75px;
     width: 273px;
@@ -159,6 +170,25 @@ header{
     text-transform: uppercase;
     font-size: 1.2em;
     color: var(--White);
+}
+
+.creations:hover { 
+    color: var(--Black); 
+    cursor: pointer; 
+    transition: 0.5s; 
+    z-index: 2; 
+    }
+
+.creations:hover::after{
+    content: ''; 
+    position: absolute;
+    top: 0; 
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background-color: hsla(0, 0%, 100%, 0.649); 
+    transition: 1.5s;
+    z-index: -1;
 }
 
 #earth{
