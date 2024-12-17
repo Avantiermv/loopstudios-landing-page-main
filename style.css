@@ -293,6 +293,7 @@ footer{
     font-weight: bold;
     color: var(--White);
     margin: 10px;
+    cursor: pointer;
 }
 
 #socialmedia{
@@ -303,6 +304,7 @@ footer{
 .imgmedia{
     padding: 10px;
     margin: 10px;
+    cursor: pointer;
 }
 
 #face{
@@ -335,3 +337,65 @@ footer{
     margin: 15px;
 }
 
+@media screen and (min-width: 600px){
+
+    header{
+        background-image: url(images/desktop/image-hero.jpg);
+    }
+
+    #imglogo{
+        width: 150px;
+    }
+
+    #menuimgmobile{
+        display: none;
+    }
+
+    #menudesktop{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #listlinkdesktop{
+        list-style: none;
+        display: flex;
+        flex-flow: row;
+    }
+
+    #listlinkdesktop > li > a{
+        text-decoration: solid;
+        font-size: 17px;
+        font-family: var(--font2);
+        color: var(--White);
+        margin: 20px;
+    }
+
+    #headercontent > p{
+        max-width: 534px;
+        font-size: 3em;
+        font-weight: lighter;
+    }
+
+    .sections{
+        flex-flow: row wrap;
+    }
+
+    #theleader{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+
+    #content{
+        width: 600px;
+    }
+
+    #imginteractive{
+        background-image: url(images/desktop/image-interactive.jpg);
+        background-size: contain;
+        padding: 0px;
+        width: 500px;
+        width: 500px;
+    }
+
+}
