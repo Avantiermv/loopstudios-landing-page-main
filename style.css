@@ -404,6 +404,9 @@ footer{
 
     #content{
         width: 600px;
+        background-color: var(--White);
+        position: absolute;
+        margin: 10px;
     }
 
     #imginteractive{
@@ -411,7 +414,7 @@ footer{
         background-size: contain;
         padding: 0px;
         width: 500px;
-        width: 500px;
+        height: 341px;
     }
 
 }
