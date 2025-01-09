@@ -177,7 +177,7 @@ header{
     cursor: pointer; 
     transition: 0.5s; 
     z-index: 2; 
-    }
+}
 
 .creations:hover::after{
     content: ''; 
@@ -263,6 +263,10 @@ header{
     transition-duration: 0.5s;
     color: var(--White);
     cursor: pointer;
+}
+
+#desktopinfo{
+    display: none;
 }
 
 footer{
@@ -398,8 +402,7 @@ footer{
 
     #theleader{
         display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
+        flex-flow: row nowrap;
         width: 1200px;
         height: 700px;
 
@@ -407,13 +410,13 @@ footer{
 
     #imginteractive{
         background-image: url(images/desktop/image-interactive.jpg);
-        padding: 320px;
+        width: 280px;
+        padding: 230px;
     }
 
     #content{
         width: 600px;
         background-color: var(--White);
-        position: absolute;
         margin: 10px;
         text-align: start;
     }
@@ -432,6 +435,105 @@ footer{
         padding-left: 90px;
     }
 
+    #ourcreations, #moreinfo{
+        display: none;
+    }
+
+    #desktopinfo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       width: 84%;
+        margin: 20px;
+    }
+
+    #ourcreationsdesktop{
+        font-family: var(--font1);
+        text-transform: uppercase;
+        color: var(--Black);
+        font-weight: lighter;
+        font-size: 1.4em;
+    }
+
+    #moreinfodesktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: solid;
+        border-color: var(--Black);
+        color: var(--Black);
+        padding: 19px;
+        width: 180px;
+        height: 13px;
+        font-family: var(--font1);
+        font-weight: lighter;
+        text-transform: uppercase;
+        font-size: smaller;
+        background-color: var(--White);
+    }
+
+    #moreinfodesktop:hover{
+        background-color: hsl(0, 0%, 55%);
+        transition-duration: 0.5s;
+        color: var(--White);
+        cursor: pointer;
+    }
+
+    .sections{
+        flex-flow: row wrap;
+    }
+
+    .creations{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+        position: relative;
+        z-index: 1;
     
+        height: 375px;
+        width: 200px;
+        padding: 20px;
+        margin: 15px;
+    
+        font-family: var(--font1);
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        color: var(--White);
+    }
+
+    #earth{
+        background-image: url(images/desktop/image-deep-earth.jpg);
+    }
+    
+    #arcade{
+        background-image: url(images/desktop/image-night-arcade.jpg);
+    }
+    
+    #soccerteam{
+        background-image: url(images/desktop/image-soccer-team.jpg);
+    }
+    
+    #grid{
+        background-image: url(images/desktop/image-grid.jpg);
+    }
+    
+    #fromup{
+        background-image: url(images/desktop/image-from-above.jpg);
+    }
+    
+    #borealis{
+        background-image: url(images/desktop/image-pocket-borealis.jpg);
+    }
+    
+    #curiosity{
+        background-image: url(images/desktop/image-curiosity.jpg);
+    }
+    
+    #fisheye{
+        background-image: url(images/desktop/image-fisheye.jpg);
+    }
+
 
 }
