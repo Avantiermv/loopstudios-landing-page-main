@@ -12,7 +12,6 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -26,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screencapture-127-0-0-1-5500-index-html-2025-01-17-14_21_23.png)
 
 ### Links
 
@@ -40,22 +39,15 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
+I learned a few things about flexbox, and JavaScript. I didn't learned a lot of things, I only used what I knew. 
 
 ### Continued development
 
-
-### Useful resources
-
+I'll study about how to make my codes cleaner. 
 
 ## Author
 
