@@ -92,7 +92,7 @@ header{
     color: var(--White);
 }
 
-#headercontent > p{
+#headerp{
     font-family: var(--font1);
     font-size: 1.7em;
     font-weight: lighter;
@@ -347,6 +347,25 @@ footer{
         background-image: url(images/desktop/image-hero.jpg);
     }
 
+    #logoandmenu{
+        padding: 70px;
+    }
+
+    #headercontent{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: 77px;
+        margin-top: 50px;
+        max-width: 300px;
+        padding: 40px;
+        padding-right: 260px;
+    }
+
+    #headerp{
+        font-size: 48px;
+        font-weight: lighter;
+    }
+
     #imglogo{
         width: 150px;
     }
@@ -390,12 +409,6 @@ footer{
         width: 50%;
     }
 
-    #headercontent > p{
-        max-width: 534px;
-        font-size: 3em;
-        font-weight: lighter;
-    }
-
     .sections{
         flex-flow: row wrap;
     }
@@ -403,9 +416,8 @@ footer{
     #theleader{
         display: flex;
         flex-flow: row nowrap;
-        width: 1200px;
+        width: 86%;
         height: 700px;
-
     }
 
     #imginteractive{
@@ -443,7 +455,7 @@ footer{
         display: flex;
         align-items: center;
         justify-content: space-between;
-       width: 84%;
+        width: 80%;
         margin: 20px;
     }
 
@@ -480,7 +492,8 @@ footer{
     }
 
     .sections{
-        flex-flow: row wrap;
+        margin: auto;
+        width: 86%;
     }
 
     .creations{
@@ -535,5 +548,34 @@ footer{
         background-image: url(images/desktop/image-fisheye.jpg);
     }
 
+
+    footer{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-top: 120px;
+        padding: 35px;
+        padding-left: 100px;
+        padding-right: 140px;
+    }
+
+    .divfooter{
+        align-items: flex-start;
+    }
+
+    #imglogo{
+        margin: 0px;
+        padding: 12px;
+    }
+
+    #footercontent{
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        padding: 5px;
+    }
+
+    #socialmedia{
+        justify-content: flex-end;
+    }
 
 }
