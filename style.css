@@ -291,13 +291,14 @@ footer{
     align-items: center;
 }
 
-#footercontent > p{
+#footercontent > li > a{
     font-family: var(--font2);
     font-size: 1.2em;
     font-weight: bold;
     color: var(--White);
     margin: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #socialmedia{
@@ -566,12 +567,37 @@ footer{
     #imglogo{
         margin: 0px;
         padding: 12px;
+        padding-left: 48px;
     }
 
     #footercontent{
         flex-flow: row wrap;
         justify-content: space-evenly;
         padding: 5px;
+    }
+
+    #footercontent > li > a{
+        text-decoration: solid;
+        font-size: 17px;
+        font-family: var(--font2);
+        color: var(--White);
+        margin: 20px;
+        position: relative;
+    }
+
+    #footercontent > li > a::after{
+        content: " ";
+        width: 0%;
+        height: 4px;
+        background-image: linear-gradient(45deg, hsla(0, 0%, 100%, 0.877), hsl(0, 0%, 100%));
+        position: absolute;
+        top: 25px;
+        left: 10px;
+        transition: width 0.5s;
+    }
+
+    #footercontent > li > a:hover::after{
+        width: 50%;
     }
 
     #socialmedia{
